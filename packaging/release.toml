@@ -1,0 +1,8 @@
+# The release that packaging/tools/build.py and validate.py work on.
+version = "1.26"
+
+# Local tag of the image (`<local_image>:<version>`), and the public repository it was published to.
+local_image = "fastsim-t3"
+repository = "docker.io/greedyshark/fastsim-t3"
+
+license = "Apache-2.0"

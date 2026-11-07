@@ -1,0 +1,23 @@
+{
+  "candidate": "fastsim-nat:n26j",
+  "image_id": "sha256:c6f2f3438dae346522b69fc5dc1314f0d6244e493e4e6aca9bf4a00d1dae782c",
+  "context_sha256": "00dc0cf743ae7df345ac9fc0e0ef157a0e19ce17eab339e2cc68d660185dcf8c",
+  "command": [
+    "docker",
+    "build",
+    "--no-cache",
+    "--platform",
+    "linux/amd64",
+    "--provenance=false",
+    "--sbom=false",
+    "--progress",
+    "plain",
+    "--build-arg",
+    "VERSION=<version>",
+    "--tag",
+    "<candidate>",
+    "releases/<version>/context"
+  ],
+  "note": "docker build --no-cache --platform linux/amd64 --build-arg VERSION=1.26 --tag fastsim-nat:n26j releases/1.26/context, natively on the x86-64 lab (i7-10700K, Docker 29.1.3 legacy builder), so that PGO trains on real x86 cores rather than under emulation; the fastest of twelve native draws of this context; image moved with docker save | docker load",
+  "recorded": "2026-10-11T16:51:57+00:00"
+}

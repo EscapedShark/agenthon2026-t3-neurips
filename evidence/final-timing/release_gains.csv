@@ -1,0 +1,17 @@
+release,dev_upload,kind,gain_pct,measure,source
+1.10,v11,program,6.8,score proxy at F=100 ms; x86 lab; PGO; process time,"docs/RELEASES.md, v11"
+1.11,v12,program,0.60,score proxy at F=100 ms,"docs/RELEASES.md, v12"
+1.12,v13,program,0.36,score proxy at F=100 ms,"docs/RELEASES.md, v13"
+1.13,v14,program,1.02,score proxy at F=100 ms,"docs/RELEASES.md, v14"
+1.14,v15,program,0.8,score proxy at F=100 ms (about),"docs/RELEASES.md, v15"
+1.15,v16,program,0.12,score proxy at F=100 ms (0.09 to 0.14; midpoint),"docs/RELEASES.md, v16"
+1.16,v17,image,25.5,Final-style GPU container race (+25.2 and +25.8; mean),"docs/RELEASES.md, v17"
+1.17,v18,image,1.4,Final-style GPU container race (+1.0 and +1.8; mean); no effect expected under CDI injection,"docs/RELEASES.md, v18"
+1.19,v20,program,0.27,score proxy at F=125 ms (0.15 to 0.38; midpoint); built and validated but not uploaded,"docs/RELEASES.md, v20"
+1.20,v21,program,0.83,Final-style GPU container race,"docs/RELEASES.md, v21"
+1.21,v22,program,0.4,score proxy at F=125 ms (about),"docs/RELEASES.md, v22"
+1.22,v23,image,6.2,Final-style GPU container race (+6.1 and +6.3; mean),"docs/RELEASES.md, v23"
+1.23,v24,program,0.42,score proxy at F=102 ms (+0.41 and +0.42),docs/history/PERFORMANCE_V24.md
+1.24,v25,program,0.155,score proxy at F=102 ms (+0.135 +0.170 +0.159; mean),docs/history/PERFORMANCE_V25.md
+1.25,v26,program,0.154,score proxy at F=102 ms (+0.159 +0.145 +0.158; mean),docs/history/PERFORMANCE_V26.md
+1.26,v27,program,-0.03,score proxy at F=102 ms; correctness fix,docs/history/PERFORMANCE_V27.md

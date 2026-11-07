@@ -1,0 +1,5 @@
+fastsim
+Copyright 2026 Peidong Liu, Yiping Yin and Xing Zheng (Agenthon 2026 team abc123)
+
+This product reimplements the behaviour of ABIDES and of NumPy's legacy random stream.
+See THIRD_PARTY_NOTICES.md for their copyright notices and licences.

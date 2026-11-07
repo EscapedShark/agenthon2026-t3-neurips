@@ -1,0 +1,532 @@
+{
+ "machine": {
+  "cpu": "Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz",
+  "platform": "Linux-6.8.0-111-generic-x86_64-with-glibc2.35",
+  "fastsim_sha256": "9c59e65058b3583d440a5624494a7c379d326cae69c7caaf0db6204d074fb111",
+  "repeats": 11,
+  "started": "2026-11-08T01:40:33+1100",
+  "finished": "2026-11-08T01:51:52+1100"
+ },
+ "units": [
+  {
+   "unit": "t3-s001-price-time-priority",
+   "rows": 604,
+   "abides_sim_sec": 0.04538174718618393,
+   "abides_proc_sec": 0.5052017457783222,
+   "fastsim_proc_sec": 0.0006914250552654266,
+   "reference_sim_sec": 0.1739900419999998
+  },
+  {
+   "unit": "t3-eq-deterministic-baseline",
+   "rows": 10669,
+   "abides_sim_sec": 0.9892636556178331,
+   "abides_proc_sec": 1.6831523664295673,
+   "fastsim_proc_sec": 0.0016957474872469902,
+   "reference_sim_sec": 1.1943347919999994
+  },
+  {
+   "unit": "t3-s019-latency-jitter-kendall",
+   "rows": 12328,
+   "abides_sim_sec": 0.9086441565304995,
+   "abides_proc_sec": 1.5943366568535566,
+   "fastsim_proc_sec": 0.0016704825684428215,
+   "reference_sim_sec": 1.7415955010000062
+  },
+  {
+   "unit": "t3-eq-lognormal-lowsigma",
+   "rows": 14379,
+   "abides_sim_sec": 1.023705342784524,
+   "abides_proc_sec": 1.7416052967309952,
+   "fastsim_proc_sec": 0.0017801634967327118,
+   "reference_sim_sec": 1.2923192509999986
+  },
+  {
+   "unit": "t3-eq-uniform-tight",
+   "rows": 14704,
+   "abides_sim_sec": 1.0749393720179796,
+   "abides_proc_sec": 1.7773132640868425,
+   "fastsim_proc_sec": 0.0018620137125253677,
+   "reference_sim_sec": 1.1830459589999998
+  },
+  {
+   "unit": "t3-eq-pareto-heavytail",
+   "rows": 14790,
+   "abides_sim_sec": 1.0323002059012651,
+   "abides_proc_sec": 1.739225335419178,
+   "fastsim_proc_sec": 0.0018102452158927917,
+   "reference_sim_sec": 1.1778207920000021
+  },
+  {
+   "unit": "t3-eq-lognormal-highmag",
+   "rows": 14804,
+   "abides_sim_sec": 1.1102781482040882,
+   "abides_proc_sec": 1.8173339366912842,
+   "fastsim_proc_sec": 0.0017935903742909431,
+   "reference_sim_sec": 1.3098499589999975
+  },
+  {
+   "unit": "t3-eq-lognormal-highsigma",
+   "rows": 14820,
+   "abides_sim_sec": 1.0860878322273493,
+   "abides_proc_sec": 1.7864106241613626,
+   "fastsim_proc_sec": 0.0018645450472831726,
+   "reference_sim_sec": 1.5640329590000004
+  },
+  {
+   "unit": "t3-eq-uniform-wide",
+   "rows": 14947,
+   "abides_sim_sec": 1.1222138181328773,
+   "abides_proc_sec": 1.8388266507536173,
+   "fastsim_proc_sec": 0.0018486035987734795,
+   "reference_sim_sec": 1.3669434589999998
+  },
+  {
+   "unit": "t3-eq001-pareto-latency-tail",
+   "rows": 16377,
+   "abides_sim_sec": 1.1806898266077042,
+   "abides_proc_sec": 1.9282264467328787,
+   "fastsim_proc_sec": 0.001986422576010227,
+   "reference_sim_sec": 1.330782751
+  },
+  {
+   "unit": "t3-as01-base-mix",
+   "rows": 24695,
+   "abides_sim_sec": 1.6898736227303743,
+   "abides_proc_sec": 2.541815046221018,
+   "fastsim_proc_sec": 0.0024466244503855705,
+   "reference_sim_sec": 1.8755025419999924
+  },
+  {
+   "unit": "t3-as05-oracle-variant",
+   "rows": 25443,
+   "abides_sim_sec": 1.7350953090935946,
+   "abides_proc_sec": 2.6046959403902292,
+   "fastsim_proc_sec": 0.002417290583252907,
+   "reference_sim_sec": 1.801971458999958
+  },
+  {
+   "unit": "t3-ca-thin-book-depth",
+   "rows": 25746,
+   "abides_sim_sec": 1.7620643805712461,
+   "abides_proc_sec": 2.641717940568924,
+   "fastsim_proc_sec": 0.0023380815982818604,
+   "reference_sim_sec": 1.8398760839999966
+  },
+  {
+   "unit": "t3-as04-value-heavy",
+   "rows": 26990,
+   "abides_sim_sec": 1.8432567827403545,
+   "abides_proc_sec": 2.760741587728262,
+   "fastsim_proc_sec": 0.002504364587366581,
+   "reference_sim_sec": 1.9309242510000217
+  },
+  {
+   "unit": "t3-ra04-shock-late",
+   "rows": 34953,
+   "abides_sim_sec": 2.2254128605127335,
+   "abides_proc_sec": 3.161383891478181,
+   "fastsim_proc_sec": 0.002764599397778511,
+   "reference_sim_sec": 2.2773196680000183
+  },
+  {
+   "unit": "t3-ra06-shock-value-heavy",
+   "rows": 35298,
+   "abides_sim_sec": 2.298507995903492,
+   "abides_proc_sec": 3.242287991568446,
+   "fastsim_proc_sec": 0.0028193769976496696,
+   "reference_sim_sec": 2.281418959000007
+  },
+  {
+   "unit": "t3-ra02-shock-early",
+   "rows": 35381,
+   "abides_sim_sec": 2.3138191625475883,
+   "abides_proc_sec": 3.271149143576622,
+   "fastsim_proc_sec": 0.002833726815879345,
+   "reference_sim_sec": 2.503453001999901
+  },
+  {
+   "unit": "t3-ra05-shock-momentum-heavy",
+   "rows": 35697,
+   "abides_sim_sec": 2.353771800175309,
+   "abides_proc_sec": 3.322344621643424,
+   "fastsim_proc_sec": 0.0029023056849837303,
+   "reference_sim_sec": 2.300206043000003
+  },
+  {
+   "unit": "t3-st04-thin-book-mm-strain",
+   "rows": 36251,
+   "abides_sim_sec": 2.658271273598075,
+   "abides_proc_sec": 3.7262606769800186,
+   "fastsim_proc_sec": 0.0030292933806777,
+   "reference_sim_sec": 2.7147130430000175
+  },
+  {
+   "unit": "t3-ra03-large-shock",
+   "rows": 36330,
+   "abides_sim_sec": 2.4185264855623245,
+   "abides_proc_sec": 3.3913694880902767,
+   "fastsim_proc_sec": 0.0028675924986600876,
+   "reference_sim_sec": 2.6077765850000105
+  },
+  {
+   "unit": "t3-ra01-fundamental-shock-mid",
+   "rows": 36431,
+   "abides_sim_sec": 2.3286140263080597,
+   "abides_proc_sec": 3.2810390517115593,
+   "fastsim_proc_sec": 0.002919672057032585,
+   "reference_sim_sec": 2.266492835000008
+  },
+  {
+   "unit": "t3-ca-high-volatility",
+   "rows": 40237,
+   "abides_sim_sec": 2.659436894580722,
+   "abides_proc_sec": 3.6870389860123396,
+   "fastsim_proc_sec": 0.003039991483092308,
+   "reference_sim_sec": 2.901603668000007
+  },
+  {
+   "unit": "t3-ca-baseline-calm",
+   "rows": 40257,
+   "abides_sim_sec": 2.7805532086640596,
+   "abides_proc_sec": 3.8326136358082294,
+   "fastsim_proc_sec": 0.0030143018811941147,
+   "reference_sim_sec": 2.8571817090000025
+  },
+  {
+   "unit": "t3-ca-fast-mean-reversion",
+   "rows": 40280,
+   "abides_sim_sec": 2.8046121783554554,
+   "abides_proc_sec": 3.854336740449071,
+   "fastsim_proc_sec": 0.003197522833943367,
+   "reference_sim_sec": 2.838400957999994
+  },
+  {
+   "unit": "t3-ca-fat-tail-jumps",
+   "rows": 40283,
+   "abides_sim_sec": 2.794760663062334,
+   "abides_proc_sec": 3.861061591655016,
+   "fastsim_proc_sec": 0.0030611371621489525,
+   "reference_sim_sec": 2.9371373759999813
+  },
+  {
+   "unit": "t3-as02-scale-up-noise",
+   "rows": 42231,
+   "abides_sim_sec": 2.998868154361844,
+   "abides_proc_sec": 4.261880559846759,
+   "fastsim_proc_sec": 0.0036147646605968475,
+   "reference_sim_sec": 3.1930823760000067
+  },
+  {
+   "unit": "t3-as03-mm-liquidity-heavy",
+   "rows": 50828,
+   "abides_sim_sec": 3.5085408966988325,
+   "abides_proc_sec": 4.731625195592642,
+   "fastsim_proc_sec": 0.004183746874332428,
+   "reference_sim_sec": 3.825847168999985
+  },
+  {
+   "unit": "t3-gb-base-30agent-30s",
+   "rows": 68351,
+   "abides_sim_sec": 5.027346676215529,
+   "abides_proc_sec": 6.864670133218169,
+   "fastsim_proc_sec": 0.0038789622485637665,
+   "reference_sim_sec": 5.189683960999901
+  },
+  {
+   "unit": "t3-sf-03-vol-clustering-momentum",
+   "rows": 71827,
+   "abides_sim_sec": 4.401594379916787,
+   "abides_proc_sec": 5.815970851108432,
+   "fastsim_proc_sec": 0.004791357554495335,
+   "reference_sim_sec": 4.220548252
+  },
+  {
+   "unit": "t3-sf-01-baseline-regime",
+   "rows": 71932,
+   "abides_sim_sec": 4.286576574668288,
+   "abides_proc_sec": 5.70496073924005,
+   "fastsim_proc_sec": 0.004674231633543968,
+   "reference_sim_sec": 4.388949501999996
+  },
+  {
+   "unit": "t3-sf-07-coarse-agent-batch",
+   "rows": 71935,
+   "abides_sim_sec": 4.364305341616273,
+   "abides_proc_sec": 5.803233752027154,
+   "fastsim_proc_sec": 0.00467335619032383,
+   "reference_sim_sec": 4.320619751999999
+  },
+  {
+   "unit": "t3-sf-06-high-fundamental-vol",
+   "rows": 71960,
+   "abides_sim_sec": 4.266223607584834,
+   "abides_proc_sec": 5.714213447645307,
+   "fastsim_proc_sec": 0.004431690089404583,
+   "reference_sim_sec": 4.604653584999994
+  },
+  {
+   "unit": "t3-sf-02-heavy-jump-tails",
+   "rows": 71966,
+   "abides_sim_sec": 4.307609457522631,
+   "abides_proc_sec": 5.739679332822561,
+   "fastsim_proc_sec": 0.004486582241952419,
+   "reference_sim_sec": 4.325034877000007
+  },
+  {
+   "unit": "t3-momentum-mix-priority",
+   "rows": 71980,
+   "abides_sim_sec": 4.598323183134198,
+   "abides_proc_sec": 6.071481427177787,
+   "fastsim_proc_sec": 0.005661332048475742,
+   "reference_sim_sec": 4.785304459999999
+  },
+  {
+   "unit": "t3-st05-latency-spike-pareto",
+   "rows": 71980,
+   "abides_sim_sec": 4.391366936266422,
+   "abides_proc_sec": 5.830142026767135,
+   "fastsim_proc_sec": 0.004467790946364403,
+   "reference_sim_sec": 4.334532042999967
+  },
+  {
+   "unit": "t3-fastlob-tight-book",
+   "rows": 72003,
+   "abides_sim_sec": 4.475810743868351,
+   "abides_proc_sec": 5.9774405509233475,
+   "fastsim_proc_sec": 0.004654194228351116,
+   "reference_sim_sec": 4.623454961
+  },
+  {
+   "unit": "t3-coarse-tick-ties",
+   "rows": 72004,
+   "abides_sim_sec": 4.697408547624946,
+   "abides_proc_sec": 6.093276467174292,
+   "fastsim_proc_sec": 0.0054146843031048775,
+   "reference_sim_sec": 5.034391127000021
+  },
+  {
+   "unit": "t3-st03-volatility-burst",
+   "rows": 72020,
+   "abides_sim_sec": 4.421458035707474,
+   "abides_proc_sec": 5.856138287112117,
+   "fastsim_proc_sec": 0.004673887975513935,
+   "reference_sim_sec": 4.350752752000005
+  },
+  {
+   "unit": "t3-st01-liquidity-churn-baseline",
+   "rows": 72034,
+   "abides_sim_sec": 4.3221333883702755,
+   "abides_proc_sec": 5.762962551787496,
+   "fastsim_proc_sec": 0.004876906983554363,
+   "reference_sim_sec": 4.642127001999995
+  },
+  {
+   "unit": "t3-mp07-heavy-flow-oldest",
+   "rows": 72036,
+   "abides_sim_sec": 4.341257654130459,
+   "abides_proc_sec": 5.78786806575954,
+   "fastsim_proc_sec": 0.004611770622432232,
+   "reference_sim_sec": 4.325936210999998
+  },
+  {
+   "unit": "t3-mp01-stp-newest-baseline",
+   "rows": 72044,
+   "abides_sim_sec": 4.331743478775024,
+   "abides_proc_sec": 5.749998020008206,
+   "fastsim_proc_sec": 0.004558683373034,
+   "reference_sim_sec": 4.104216709000003
+  },
+  {
+   "unit": "t3-stp-cancel-newest",
+   "rows": 72048,
+   "abides_sim_sec": 4.74946117028594,
+   "abides_proc_sec": 6.15157356671989,
+   "fastsim_proc_sec": 0.005603505298495293,
+   "reference_sim_sec": 4.899747627000011
+  },
+  {
+   "unit": "t3-mp02-stp-oldest-baseline",
+   "rows": 72049,
+   "abides_sim_sec": 4.217602863907814,
+   "abides_proc_sec": 5.660754913464189,
+   "fastsim_proc_sec": 0.004644923843443394,
+   "reference_sim_sec": 4.053105460000005
+  },
+  {
+   "unit": "t3-partialfill-atomicity",
+   "rows": 72052,
+   "abides_sim_sec": 4.687686717137694,
+   "abides_proc_sec": 6.084516724571586,
+   "fastsim_proc_sec": 0.005607558414340019,
+   "reference_sim_sec": 4.963889461000008
+  },
+  {
+   "unit": "t3-fastlob-core",
+   "rows": 72061,
+   "abides_sim_sec": 4.60982034355402,
+   "abides_proc_sec": 6.002340409904718,
+   "fastsim_proc_sec": 0.00532582588493824,
+   "reference_sim_sec": 4.778622876
+  },
+  {
+   "unit": "t3-st02-informed-entry-burst",
+   "rows": 72075,
+   "abides_sim_sec": 4.534209778532386,
+   "abides_proc_sec": 6.005898194387555,
+   "fastsim_proc_sec": 0.004871846176683903,
+   "reference_sim_sec": 4.5302456680000205
+  },
+  {
+   "unit": "t3-sf-04-thin-book-depth",
+   "rows": 72093,
+   "abides_sim_sec": 4.600361639633775,
+   "abides_proc_sec": 6.103445628657937,
+   "fastsim_proc_sec": 0.004967791028320789,
+   "reference_sim_sec": 4.457277210000001
+  },
+  {
+   "unit": "t3-multilevel-crossing",
+   "rows": 72250,
+   "abides_sim_sec": 4.564060537144542,
+   "abides_proc_sec": 6.02058600448072,
+   "fastsim_proc_sec": 0.005431952886283398,
+   "reference_sim_sec": 4.544136961000021
+  },
+  {
+   "unit": "t3-as06-throughput-fast",
+   "rows": 74502,
+   "abides_sim_sec": 4.990360088646412,
+   "abides_proc_sec": 6.761151215061545,
+   "fastsim_proc_sec": 0.005107390694320202,
+   "reference_sim_sec": 5.252725794000014
+  },
+  {
+   "unit": "t3-mp06-tight-spread-selfcross",
+   "rows": 80929,
+   "abides_sim_sec": 4.720590641722083,
+   "abides_proc_sec": 6.243286948651075,
+   "fastsim_proc_sec": 0.004825925454497337,
+   "reference_sim_sec": 4.625297251999996
+  },
+  {
+   "unit": "t3-mr-long-horizon-replay",
+   "rows": 81221,
+   "abides_sim_sec": 4.791918898001313,
+   "abides_proc_sec": 6.337697807699442,
+   "fastsim_proc_sec": 0.005560754798352718,
+   "reference_sim_sec": 4.859237252999947
+  },
+  {
+   "unit": "t3-sf-05-deep-book-liquidity",
+   "rows": 82591,
+   "abides_sim_sec": 5.017931800335646,
+   "abides_proc_sec": 6.559536715969443,
+   "fastsim_proc_sec": 0.00499531626701355,
+   "reference_sim_sec": 4.907351669000008
+  },
+  {
+   "unit": "t3-mp04-mm-heavy-oldest",
+   "rows": 120915,
+   "abides_sim_sec": 7.106856094673276,
+   "abides_proc_sec": 9.273141123354435,
+   "fastsim_proc_sec": 0.006629288196563721,
+   "reference_sim_sec": 6.904162962000015
+  },
+  {
+   "unit": "t3-mp03-mm-heavy-newest",
+   "rows": 120920,
+   "abides_sim_sec": 7.042887484654784,
+   "abides_proc_sec": 9.182541351765394,
+   "fastsim_proc_sec": 0.006237160414457321,
+   "reference_sim_sec": 6.700513502999996
+  },
+  {
+   "unit": "t3-mr-checkpoint-cadence-fine",
+   "rows": 161055,
+   "abides_sim_sec": 9.71761848218739,
+   "abides_proc_sec": 12.509694697335362,
+   "fastsim_proc_sec": 0.010185927152633667,
+   "reference_sim_sec": 9.636492629000031
+  },
+  {
+   "unit": "t3-cancelmodify-lifecycle",
+   "rows": 161529,
+   "abides_sim_sec": 9.896253699436784,
+   "abides_proc_sec": 12.692358518019319,
+   "fastsim_proc_sec": 0.011246871203184128,
+   "reference_sim_sec": 10.096071213000016
+  },
+  {
+   "unit": "t3-s012-partial-fill-cancel-race",
+   "rows": 202291,
+   "abides_sim_sec": 12.538919100537896,
+   "abides_proc_sec": 15.98115362599492,
+   "fastsim_proc_sec": 0.012316515669226646,
+   "reference_sim_sec": 17.84887784099999
+  },
+  {
+   "unit": "t3-mp05-cancel-churn-newest",
+   "rows": 240829,
+   "abides_sim_sec": 14.184402875602245,
+   "abides_proc_sec": 17.961530562490225,
+   "fastsim_proc_sec": 0.012775130569934845,
+   "reference_sim_sec": 14.355637381999998
+  },
+  {
+   "unit": "t3-gb-pop-128-agents",
+   "rows": 303603,
+   "abides_sim_sec": 22.984914740547538,
+   "abides_proc_sec": 29.992730071768165,
+   "fastsim_proc_sec": 0.014146588742733002,
+   "reference_sim_sec": 27.916827179000002
+  },
+  {
+   "unit": "t3-mr-deep-book-state-size",
+   "rows": 319488,
+   "abides_sim_sec": 21.040269035845995,
+   "abides_proc_sec": 26.13342143781483,
+   "fastsim_proc_sec": 0.021144019439816475,
+   "reference_sim_sec": 22.426927343999978
+  },
+  {
+   "unit": "t3-mr-cancel-replace-churn",
+   "rows": 322007,
+   "abides_sim_sec": 20.14105619676411,
+   "abides_proc_sec": 25.68368919380009,
+   "fastsim_proc_sec": 0.01913583092391491,
+   "reference_sim_sec": 19.629572758999984
+  },
+  {
+   "unit": "t3-gb-highfreq-40hz-60s",
+   "rows": 500530,
+   "abides_sim_sec": 37.56962005794048,
+   "abides_proc_sec": 48.802656430751085,
+   "fastsim_proc_sec": 0.021291893906891346,
+   "reference_sim_sec": 51.74052577400002
+  },
+  {
+   "unit": "t3-gb-horizon-240s",
+   "rows": 555032,
+   "abides_sim_sec": 42.06783591769636,
+   "abides_proc_sec": 55.09383903630078,
+   "fastsim_proc_sec": 0.02472566068172455,
+   "reference_sim_sec": 49.043733689
+  },
+  {
+   "unit": "t3-gb-pop-horizon-scale",
+   "rows": 725591,
+   "abides_sim_sec": 53.76019719615579,
+   "abides_proc_sec": 69.96144410781562,
+   "fastsim_proc_sec": 0.031375447288155556,
+   "reference_sim_sec": 64.713252487
+  },
+  {
+   "unit": "t3-gb-mega-throughput",
+   "rows": 1168360,
+   "abides_sim_sec": 87.58448126539588,
+   "abides_proc_sec": 115.21084258519113,
+   "fastsim_proc_sec": 0.05031713377684355,
+   "reference_sim_sec": 110.52726396799994
+  }
+ ]
+}

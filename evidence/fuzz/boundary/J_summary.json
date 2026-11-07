@@ -1,0 +1,23 @@
+{
+ "cases": 600,
+ "abides_errors": 0,
+ "megashocks": 396333,
+ "boundary_hits": 557,
+ "cases_with_hits": 189,
+ "verdicts": {
+  "fix": {
+   "OK": 600
+  },
+  "r125": {
+   "OK": 480,
+   "MISMATCH": 120
+  }
+ },
+ "by_hits": {
+  "fix/no-hit/OK": 411,
+  "r125/no-hit/OK": 411,
+  "fix/hit/OK": 189,
+  "r125/hit/MISMATCH": 120,
+  "r125/hit/OK": 69
+ }
+}

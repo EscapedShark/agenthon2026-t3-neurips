@@ -1,0 +1,14 @@
+== fuzz126/B
+{'OK': 578} over 578 cases with a reference in B
+== fuzz126/C
+{'OK': 562} over 562 cases with a reference in C
+== fuzz124/run1
+{'OK': 57} over 57 cases with a reference in run1
+== fuzz124/run2
+{'OK': 56} over 56 cases with a reference in run2
+== dense_abides
+{'OK': 6} over 6 cases with a reference in dense_abides
+== fuzzscale/cal
+{'OK': 16} over 16 cases with a reference in cal
+== fuzzscale/A
+{'OK': 999} over 999 cases with a reference in A

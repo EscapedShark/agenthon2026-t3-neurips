@@ -1,0 +1,68 @@
+{
+  "version": "1.26",
+  "local_tag": "fastsim-t3:1.26",
+  "image_id": "sha256:ddea2096b66000e6856f7b8aede5ebe25c89bd53858828f973a45cfc9f0a7320",
+  "manifest_digest": "sha256:ddea2096b66000e6856f7b8aede5ebe25c89bd53858828f973a45cfc9f0a7320",
+  "built_image_id": "sha256:c6f2f3438dae346522b69fc5dc1314f0d6244e493e4e6aca9bf4a00d1dae782c",
+  "config_workdir": {
+    "workdir": "/etc/fastsim",
+    "built_manifest_digest": "sha256:c6f2f3438dae346522b69fc5dc1314f0d6244e493e4e6aca9bf4a00d1dae782c",
+    "manifest_digest": "sha256:ddea2096b66000e6856f7b8aede5ebe25c89bd53858828f973a45cfc9f0a7320",
+    "config_digest": "sha256:667d08243c55eead1856aba02ce671b9b7283904c4e67b9bb8232a61824488b3",
+    "layer_digest": "sha256:860ca559c2dd13eb5be35637a2c103b9c5d39a10bc5f3ef093c1637acfb2359b",
+    "layer_root": {
+      "bin": "dir",
+      "bin/simulate": "file",
+      "bin/simulate-batch": "link",
+      "etc": "dir",
+      "tmp": "dir"
+    }
+  },
+  "descriptor": {
+    "mediaType": "application/vnd.oci.image.manifest.v1+json",
+    "digest": "sha256:ddea2096b66000e6856f7b8aede5ebe25c89bd53858828f973a45cfc9f0a7320",
+    "size": 486,
+    "annotations": {
+      "io.containerd.image.name": "docker.io/library/fastsim-t3:1.26",
+      "org.opencontainers.image.ref.name": "1.26"
+    }
+  },
+  "architecture": "amd64",
+  "os": "linux",
+  "config": {
+    "User": "65534:65534",
+    "Env": [
+      "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+      "HOME=/tmp",
+      "NVIDIA_DRIVER_CAPABILITIES=utility",
+      "FASTSIM_STREAM=1"
+    ],
+    "Entrypoint": null,
+    "Cmd": null,
+    "WorkingDir": "/etc/fastsim",
+    "Labels": {
+      "org.opencontainers.image.description": "Agenthon 2026 Track 3 market simulator (ABIDES-exact, Rust)",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.title": "fastsim",
+      "org.opencontainers.image.version": "1.26",
+      "qfbench2.interface_version": "2.0"
+    }
+  },
+  "layers": [
+    "sha256:ece053a658b4196c3e0507026df24f2a33eb8c98ec36e1728667bbdd1efb0c14"
+  ],
+  "size": 2723674,
+  "binary": {
+    "path": "/bin/simulate",
+    "sha256": "9c59e65058b3583d440a5624494a7c379d326cae69c7caaf0db6204d074fb111",
+    "bytes": 1806320,
+    "static_x86_64": true,
+    "simulate_batch": "symlink -> simulate"
+  },
+  "verbs": {
+    "simulate": "exit 1: --config is required",
+    "simulate-batch": "exit 1: --batch-dir is required"
+  },
+  "docker_server": "29.8.0",
+  "built": "2026-10-11T16:51:58+00:00"
+}

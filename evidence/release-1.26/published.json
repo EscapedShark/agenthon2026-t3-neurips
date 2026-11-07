@@ -1,0 +1,11 @@
+{
+  "version": "1.26",
+  "repository": "docker.io/greedyshark/fastsim-t3",
+  "tag": "docker.io/greedyshark/fastsim-t3:1.26",
+  "reference": "docker.io/greedyshark/fastsim-t3@sha256:ddea2096b66000e6856f7b8aede5ebe25c89bd53858828f973a45cfc9f0a7320",
+  "manifest_digest": "sha256:ddea2096b66000e6856f7b8aede5ebe25c89bd53858828f973a45cfc9f0a7320",
+  "media_type": "application/vnd.oci.image.manifest.v1+json",
+  "index_digest": null,
+  "validated_image_id": "sha256:ddea2096b66000e6856f7b8aede5ebe25c89bd53858828f973a45cfc9f0a7320",
+  "resolved": "2026-10-11T16:53:36+00:00"
+}

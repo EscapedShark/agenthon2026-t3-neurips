@@ -1,0 +1,15 @@
+# Third-party inputs, fetched by scripts/setup_workspace.sh
+/track3-simulation-public
+/Agenthon2026-public
+/abides-ref
+/.venv-abides
+
+# Build output
+/fastsim/target/
+/packaging/.venv/
+/packaging/releases/
+__pycache__/
+
+# Never commit credentials
+.env
+.DS_Store
